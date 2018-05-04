@@ -1,13 +1,13 @@
 {
   "name": "start-site",
   "version": "0.1.0",
-  "homepage": "https://github.com/#readme",
+  "homepage": "https://github.com/KatrinBelova/testing#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/.git"
+    "url": "git+https://github.com/KatrinBelova/testing.git"
   },
   "bugs": {
-    "url": "https://github.com/issues"
+    "url": "https://github.com/KatrinBelova/testingi/ssues"
   },
   "scripts": {
     "start": "gulp",
