@@ -1,0 +1,11 @@
+section.modal#modal
+	.modal__window
+		h3.modal__title Subscribe to our newsletters
+		span.modal__desc Please enter you email address to receive all news from our site.
+		form.modal__form(action="/signup" method="POST" enctype="text/plain" name="signup")
+			input.modal__input(type='email' name='email' placeholder='example@gmail.com')
+			label.modal__message(for='email') * Don’t worry you’ll not be spammed
+			button.modal__button.button(type='submit' formmethod='post') Subscribe
+		.modal__exit
+			i.icon-close
+				

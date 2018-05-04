@@ -1,0 +1,61 @@
+@import '../../../../node_modules/slick-carousel/slick/slick.css'
+@import '../../../../node_modules/slick-carousel/slick/slick-theme.css'
+
+
+.slick
+	&-next
+		right 0
+	&-prev
+		left 0
+.slick-prev,
+.slick-next,
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+	z-index 2
+	width 49px
+	height 90px
+	background-color rgba(0,0,0,0.6)
+	cursor pointer
+.slick-prev:before,
+.slick-next:before
+	font-family 'icomoon'
+	color #fff
+	font-size 4rem
+	font-weight 100
+.slick-next:before
+	content ''
+	background url('../images/arrow-next.png') center no-repeat
+	position absolute
+	top 30%
+	right 30%
+	width 15px
+	height 38px
+.slick-prev:before
+	content ''
+	background url('../images/arrow-prev.png') center no-repeat
+	position absolute
+	top 30%
+	left 30%
+	width 15px
+	height 38px
+	
+@media screen and (max-width: 480px)
+	.slick-prev,
+	.slick-next,
+	.slick-prev:hover,
+	.slick-prev:focus,
+	.slick-next:hover,
+	.slick-next:focus
+		width 25px
+		height 45px
+	.slick-prev:before,
+	.slick-next:before
+		width 15px
+		height 25px
+		top 23%
+	.slick-prev:before
+		left 24%
+	.slick-next:before
+		right 24%

@@ -1,0 +1,48 @@
+.home
+	position relative
+	height 520px
+	&__slider
+		width 100%
+		position absolute
+		top 0
+		left 0
+	&__item
+		background url('../images/banner.jpg')  center no-repeat
+		background-size cover
+		width 100%
+		height 520px
+	&__description
+		max-width 1030px
+		padding-left 15px
+		padding-right 15px
+		margin auto
+		z-index 999
+		position relative
+		height 100%
+	&__welcome
+		background-color rgba(73,153,175,0.8)
+		font-size 34px
+		line-height 40px
+		width 459px
+		color #fff
+		bottom 40px
+		position absolute
+		p
+			font-weight 300
+			padding 25px 40px 25px 20px
+			span
+				font-weight 700
+				
+@media screen and (max-width: 992px)
+	.home
+		&__welcome
+			bottom 10px
+			
+@media screen and (max-width: 768px)
+	.home
+		&__welcome
+			width 290px
+			font-size 20px
+			line-height 26px
+			margin-left 0
+			
